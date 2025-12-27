@@ -1,9 +1,9 @@
 # pfda-project
 
 ## 📜 Project Introduction
-This project consists in analysing the wind speed around Ireland, using Met Eireann (Historical Data - Met Éireann - The Irish Meteorological Service)
+This project consists in analysing the wind speed in Dublin using Met Eireann (Historical Data - Met Éireann - The Irish Meteorological Service)
 
-This project consists of exploring and visualizing the analysis of the wind speed around Ireland, over the last 3 decades and how this data may be related to climate change.
+This project consists of exploring and visualizing the analysis of the wind speed in Dublin, over the last 3 decades and how this data may be related to climate change.
 
 ## 📁 Repository Structure
 This repository is organized in:
