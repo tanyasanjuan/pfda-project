@@ -1,54 +1,56 @@
 # pfda-project
 
 ## 📜 Project Introduction
-This project consists in analysing the wind speed in Dublin using Met Eireann (Historical Data - Met Éireann - The Irish Meteorological Service)
+This project consists in analysing the wind speed in Dublin using synoptic station in Dublin_Airport, Co Dublin csv. The study aims to evaluate multivariate relationships among wind speed, temperature, precipitation, atmospheric pressure, and humidity using statistical and visual analytical methods, and to assess how these variables have evolved over time, specifically over the last 3 decades. The research seeks to provide evidence-based insights into potential climate change.
 
-This project consists of exploring and visualizing the analysis of the wind speed in Dublin, over the last 3 decades and how this data may be related to climate change.
+
+## 🎯 Objective
+The objective of this research is to analyze historical climate data through comprehensive data preprocessing and exploratory analysis in order to identify temporal trends, seasonal patterns, and extreme events in wind speed and other key climatic variables to provide evidence-based insights into potential climate change.
+
 
 ## 📁 Repository Structure
 This repository is organized in:
+- README.md
+- wind.csv
+- requirenents.txt
+- wind.ipynb
+- git.ignore
 
-README.md
-analysis.py
-wind.csv
-visualization of the data in format png.
-summary.txt
 
-## 🎯 Objective
-Load the dataset.
-Data Preparation and Cleaning. 
-Handling of Missing Values. 
-Temporal Aggregation - Daily - Monthly - Annual - Decade
-Creation of Derived Variables; Year, Month, Season; Wind Operating Ranges
-Perform a exploratory data analysis (EDA).
-Visualize the data in format png.
-Findings on wind: 
-◽ Annual evolution of average wind speed. Comparison between decades.
-◽ Increase, decrease, or stability of wind? 
-◽ Changes in strong winds. 
-◽ Prolonged periods of low wind. 
-◽ Extreme Events and Climate Change. 
-◽ Frequency of storms. 
-◽ Evidence (or not) of climate change in wind resources.
+## 💻 Notebook structure
+#### 1. Data Loading and Preparation
+- Import libraries needed.
+- Import dataset and read the dataset.
+- Variable Descriptions and Climate Change Analysis
+- Clean dataset.
+- Rename columns for easier reading.
+- Display general information of the dataset.
+#### 2. Wind Speed Analysis
+- Annual and Seasonal Trends and Plot
+- Seasonal Patterns and Bloxplot
+- Extreme wind events and histograms
+#### 3. Multivariate climate analysis
+- Temperature trends and plot
+- Precipitation trends and visualization
+- Pressure and Humidity Analysis
+- Correlation analysis: heatmaps and scatter plots
+- Combined climate trends visualization and visualizations
+#### 4. Climate Change Analysis and Conclusions
+- Findings
+- Summary
 
-## 💻 Program structure
-Import libraries needed.
-Import dataset and read the dataset.
-Clean dataset.
-Rename columns for easier reading.
-Display general information of the dataset.
-Dimension of the dataframe: How many columns and rows the dataset contains.
-Display the mean, std, min, max and median for each feature.
-Import matplotlib
-Histogram of each characteristic.
+
+## 🌬 Conclusions
+Dublin's climate is changing. Temperature is rising 0.20°C per decade, humidity is dropping, and wind speeds are declining. Together, this points to climate change affecting Dublin's weather.
+
+Temperature warming is the strongest signal. It matches global patterns. The humidity decrease also fits with warming.
+
+Wind speed decrease might be climate change.
 
 
 ## 🔧 Tools & Technologies
 ◽ Python ◽ Git ◽ Github ◽ Jupyter ◽ Numpy ◽ Matplotlib ◽ Scikit-learn ◽ Seaborn
 
-
-## 🌬 Conclusions
-Findings on wind: Evidence (or not) of climate change in wind resources...
 
 ## 📚 Research and References
 ◽ Throughout the project, research and external resources have been cited.
@@ -57,7 +59,6 @@ Findings on wind: Evidence (or not) of climate change in wind resources...
 
 Python Docs
 W3Schools
-UC Irvine Machine Learning Repository
 Wikipedia
 Geeksforgeeks
 Scikit-learn documentation
@@ -66,7 +67,6 @@ Matplotlib documentation
 Numpy documentation
 Seaborn documentation
 Python documentation
-Interactivechaos
 Chat GPT
 
 
